@@ -1,0 +1,74 @@
+:root {
+    --dark-cyan-color: hsl(158, 36%, 37%);
+    --cream-color: hsl(30, 38%, 92%);
+    --dark-blue-color: hsl(212, 21%, 14%);
+    --dark-grayish-blue-color: hsl(228, 12%, 48%);
+    --white-color: hsl(0, 0%, 100%);
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+p {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: var(--dark-grayish-blue-color);
+}
+
+.main-container {
+    display: flex;
+    background-color: var(--cream-color);
+    border-radius: 2px;
+    /* padding: ; */
+}
+
+.perfume {
+    letter-spacing: 3px;
+}
+
+.discount-price {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 2em;
+    color: var(--dark-cyan-color);
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+
+figure {
+    margin: 0 auto;
+    position: relative;
+    
+    width: 334px;
+    height: 180px;
+    /* background-color: rgb(127, 15, 0); */
+    }
+
+img {
+    object-fit: cover;
+    width: 100%;
+}    
+    
+figcaption {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 240px;
+    /* height: 180px; */
+    line-height: 24px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    /* text-transform: uppercase; */
+    /* writing-mode: vertical-rl; */
+    }
