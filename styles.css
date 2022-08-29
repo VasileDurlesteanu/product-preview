@@ -10,7 +10,7 @@
 * {
     margin: 0;
     padding: 0;
-  }
+}
   
 *, *::before, **::after {
     box-sizing: inherit;
@@ -38,7 +38,7 @@ figure {
     grid-template-columns: 300px 300px;
     justify-content: center;
     box-sizing: border-box;
-    }
+}
 
 img {
     width: 100%;
@@ -49,7 +49,6 @@ img {
 figcaption {
     display: flex;
     margin:  10%;
-    /* align-self: center; */
     line-height: 24px;
     font-size: 13px;
     font-weight: bold;
@@ -73,7 +72,10 @@ p {
 
 .perfume {
     letter-spacing: 3px;
-    /* margin-top: 25px; */
+}
+
+.break2 {
+    display: none;
 }
 
 .price{
@@ -95,7 +97,7 @@ p {
 button {
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
+    font-weight: bold;
     cursor: pointer;
     background-color: var(--dark-cyan-color);
     color: var(--white-color);
@@ -106,4 +108,57 @@ button {
 
 button:active{
     background-color: var(--active-dark-cyan-color);
+}
+
+.attribution {
+    margin-top: 300px;
+}
+
+@media screen and (max-width: 600px) {
+    .main-container {
+        margin: 10% 25px;
+    }
+    figure {
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+    }
+
+    figcaption {
+        margin: 5% 10%;
+    }
+
+    img {
+        height: 300px;
+        object-fit: cover;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+
+    h1 {
+        margin-bottom: 20px;
+        font-size: 34px;
+        line-height: 34px;
+    }
+
+    p {
+        margin-bottom: 20px;;
+    }
+
+    .break1, .break3 {
+        display: none;
+    }
+
+    .break2 {
+        display: inline;
+    }
+
+    .old-price {
+        margin-left: 25px;
+    }
+
+    .attribution {
+        margin-top: 200px;
+    }
 }
