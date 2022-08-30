@@ -24,16 +24,16 @@ Users should be able to:
 - See hover and focus states for interactive elements
 
 ### Screenshots
-- Desktop
+## Desktop
 ![](./images/solutions/Solution%20Desktop%20.png)
 
-- Click
+## Click
 ![](./images/solutions/Solution%20Desktop%20Click.png)
 
-- Hover
+## Hover
 ![](./images/solutions/Solution%20Desktop%20Hover.png)
 
-- Mobile
+## Mobile
 ![](./images/solutions/Solution%20Mobile.png)
 
 ### Links
